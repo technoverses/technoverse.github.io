@@ -40,7 +40,7 @@
         padding: 0 30px;
         }
 
-        .tp-caption.large_bold_grey {
+        .tp-caption.large_bold_white {
 font-size:60px;
 line-height:60px;
 font-weight:800;
@@ -56,12 +56,28 @@ border-color:rgb(255, 214, 88);
 border-style:none;
 }
 
-.tp-caption.medium_thin_grey {
+.tp-caption.medium_thin_white {
 font-size:34px;
 line-height:50px;
 font-weight:300;
 font-family:"Open Sans";
 color:#ffffff;
+text-decoration:none;
+background-color:transparent;
+padding:1px 4px 0px;
+text-shadow:none;
+margin:0px;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+
+.tp-caption.medium_thin_red {
+font-size:34px;
+line-height:50px;
+font-weight:300;
+font-family:"Open Sans";
+color:#ff0000;
 text-decoration:none;
 background-color:transparent;
 padding:1px 4px 0px;
@@ -102,27 +118,42 @@ border-style:none;
                     <div class="tp-banner">
                         <ul>
                             <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500"> <div class="logo-circle" ><img src="img/circle1.png" alt=""></div>
-                                <!-- MAIN IMAGE -->
+                                
+                                
+                                <!-- LAYERS First Slider -->
                                 <img src="img/dummy.png" data-lazyload="img/samples/slider2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-                                <!-- LAYERS -->
+                                
+                                <!-- Caption -->
+                             <div class="tp-caption large_bold_white skewfromrightshort customout"
+                                data-x="80"
+                                data-y="160"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="500"
+                                data-start="800"
+                                data-easing="Back.easeOut"
+                                data-endspeed="500"
+                                data-endeasing="Power4.easeIn"
+                                data-captionhidden="on"
+                                style="z-index: 4">Welcome
+                            </div>
 
-                                <!--<div class="tp-caption large_white_bold sft" data-x="left" data-y="center" data-hoffset="0" data-voffset="-90" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                             <div class="tp-caption medium_thin_white customin customout"
+                                data-x="80"
+                                data-y="240"
+                                data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="500"
+                                data-start="1300"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="500"
+                                data-endeasing="Power4.easeIn"
+                                data-captionhidden="on"
+                                style="z-index: 8"> We deliver solutions for<br/> Ubiquitous Digital World...<br/>  
+                            </div>
+
+                             <!--<div class="tp-caption large_white_bold sft" data-x="left" data-y="center" data-hoffset="0" data-voffset="-90" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
                                     <h1>.welcome</h1>
                                 </div>-->
-
-                                <div class="tp-caption large_bold_grey skewfromrightshort customout"
-						data-x="80"
-						data-y="160"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="800"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 4">Welcome
-					</div>
-
                               <!--  <div class="tp-caption italic large_white_light sft hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-20" data-speed="700" data-start="1300" data-easing="Power4.easeOut">
                                     We deliver solutions for
                                 </div>
@@ -135,20 +166,8 @@ border-style:none;
                                 <div class="tp-caption italic large_white_light sfr hidden-xs" data-x="left" data-y="center" data-hoffset="270" data-voffset="40" data-speed="700" data-start="1900" data-easing="Power4.easeOut">
                                    Digital World...
                                 </div> -->
-                    <div class="tp-caption medium_thin_grey customin customout"
-						data-x="80"
-						data-y="240"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="1300"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 8"> We deliver solutions for<br/> Ubiquitous Digital World...<br/>  
-					</div>
-                                !-- LAYER NR. 1 -->
+                   
+                                <!-- LAYER: Second Slider -->
 					        </li>
                             <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500"><div class="logo-circle" ><img src="img/circle1.png" alt=""></div>
                                 <!-- MAIN IMAGE -->
@@ -169,21 +188,31 @@ border-style:none;
                                 </div>
                             </li>
                             <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500"><div class="logo-circle" ><img src="img/circle1.png" alt=""></div>
-                                <!-- MAIN IMAGE -->
+                               
+                               
+                                <!-- Layers Slider 3 -->
                                 <img src="img/dummy.png" data-lazyload="img/samples/slider.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-                                <!-- LAYERS -->
-
-                                <!-- LAYER NR. 1 -->
+                                
                                 <div class="tp-caption lfl fadeout" data-x="90" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
                                     <img src="img/samples/iphone.png" alt="">
                                 </div>
-                                <!--<div class="tp-caption large_white_bold sft" data-x="520" data-y="center" data-hoffset="0" data-voffset="-120" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
-                                    <h1>.welcome</h1>
-                                </div>-->
-                               <!-- <div class="tp-caption large_white_light sfb" data-x="right" data-y="center" data-hoffset="0" data-voffset="-40" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
-                                    We Develop
+                                
+
+                                <!-- Caption -->
+
+                                <div class="tp-caption medium_thin_red skewfromrightshort customout"
+                                    data-x="right" data-hoffset="-90"
+                                    data-y="200"
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-speed="500"
+                                    data-start="1800"
+                                    data-easing="Back.easeOut"
+                                    data-endspeed="500"
+                                    data-endeasing="Power4.easeIn"
+                                    data-captionhidden="on"
+                                    style="z-index: 12">And gets measured for<br/> Ubiquitous Digital World...<br/>
                                 </div>
-                                 <div class="tp-caption italic large_white_light sft hidden-xs" data-x="650" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="700" data-start="1300" data-easing="Power4.easeOut">
+                                 <!--<div class="tp-caption italic large_white_light sft hidden-xs" data-x="650" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="700" data-start="1300" data-easing="Power4.easeOut">
                                     and
                                 </div>
                                 <div class="tp-caption large_white_light sfb" data-x="650" data-y="center" data-hoffset="0" data-voffset="-30" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
